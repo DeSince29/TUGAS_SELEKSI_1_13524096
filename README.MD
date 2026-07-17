@@ -1,75 +1,121 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2026 <br>
-  ETL Project
-  <br>
-  <br>
-</h1>
+# Tugas Seleksi 1 Asisten Basis Data 2026 🎈🐒
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## Author
+**Nama:** Moreno Syawali Ganda Sugita  
+**NIM:** 13524096  
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2026](https://docs.google.com/spreadsheets/d/1cowSMPtWQApyALrypfMBJSOuqbXyGh2cCaDXKRs8fD4/edit?usp=sharing)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 20:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+---
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `src` berisi script/code yang telah digunakan untuk storing. Pastikan bahwa script/code yang kalian bua bersifat well documented dan clean. 
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## Deskripsi Singkat Data dan DBMS
+Tugas seleksi ini melakukan ekstraksi (Web Scraping) dan pemodelan data (Data Storing) dari ronde pada permainan **Bloons Tower Defense 6 (BTD6)**. Data yang diambil mencakup statistik setiap ronde (seperti durasi, pendapatan, dan RBE) serta detail Bloons waves yang muncul.
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah perancangan dan implementasi data warehouse berdasarkan data yang diperoleh dari proses data scraping. Rancanglah skema yang diperlukan untuk fact table dan dimension table (misalnya menggunakan pendekatan star schema atau snowflake schema) untuk mendukung kebutuhan analitik. Sertakan struktur skema data warehouse yang digunakan beserta contoh query analitik yang bisa dijalankan terhadap data tersebut. 
-2. Lakukan automated scheduling untuk keseluruhan proses, sehingga data dapat di-update secara berkala. Pastikan tidak terdapat redundansi data pada DBMS. Jika mengerjakan bonus ini, jelaskan pada README dan cantumkan pada data waktu pelaksanaan scheduling, misalnya dengan menunjukkan perbedaan timestamp ekstraksi antara data pada batch pertama dan data pada batch kedua
+**DBMS yang digunakan:** MariaDB (Engine InnoDB).
 
+**Alasan Memilih Topik:**
+Yang pertama, saya sedang kecanduan main BTD6. Yang kedua, saya sedang addicted main BTD6. Namun, karena sudah waktunya mengerjakan tugas seleksi, saya mau mengerjakan yang berkaitan dengan game permusuhan antara monyet dan balon. Secara teknis, alasan saya memilih topik ini karena tabelnya terlihat sederhana. Namun, setelah ditilik lebih lanjut, terdapat beberapa keputusan desain dikarenakan mekanisme permainan yang tidak sesederhana itu. Oleh karena itu, saya tertarik untuk mencoba topik ini.
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2026](https://github.com/wargabasdat/Seleksi-2026-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_1_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 23 Juli 2026, PUKUL 22:40
+---
+
+## Tahap 1: Data Scraping
+Skrip *scraper* ditulis menggunakan Python dan `BeautifulSoup` untuk melakukan *parsing* elemen HTML DOM dari halaman web wiki BTD6.
+
+**1. Instalasi Dependencies:**  
+Pastikan Python 3 sudah terinstal, lalu instal library eksternal:
+
+    pip install requests beautifulsoup4
+
+**2. Eksekusi Skrip:**  
+Jalankan skrip *scraper* dari *root* repositori:
+
+    python "Data Scraping/src/scraper.py"
+
+## 🗂️ Struktur File JSON
+Hasil keluaran dari skrip *scraper* dipisah menjadi 3 *file* JSON untuk pendekatan normalisasi, sehingga mempermudah proses Load ke dalam RDBMS. Ketiga *file* ini di simpan di dalam direktori `Data Scraping/data/`.
+
+**1. `bloons.json`**
+Berisi daftar unik jenis Bloon yang pernah muncul pada ronde 1-140.
+* `bloon_id` (Integer): ID unik untuk setiap jenis bloon.
+* `bloon_name` (String): Nama varian bloon (contoh: "Camo Regrow Yellow").
+
+**2. `rounds.json`**
+Berisi data statistik spesifik dari setiap ronde permainan.
+* `round_id` (Integer): Nomor urut ronde permainan.
+* `duration` (Decimal): Lama durasi ronde dalam detik.
+* `base_rbe` (Integer): Kepadatan musuh (*Red Bloon Equivalent*).
+* `pop_cash` (Decimal): Total uang hasil memecahkan seluruh bloon.
+* `bonus_cash` (Decimal): Uang bonus di akhir ronde.
+* `layers` (Integer): Total lapisan bloon.
+* `base_xp` (Integer): Base poin pengalaman (XP) yang diberikan ronde.
+
+**3. `spawns.json`**
+Berisi informasi gelombang kemunculan bloon pada suatu ronde.
+* `spawn_id` (Integer): *Surrogate Key* untuk setiap gelombang.
+* `round_id` (Integer): Referensi ke `rounds.json`.
+* `bloon_id` (Integer): Referensi ke `bloons.json`.
+* `quantity` (Integer): Jumlah bloon yang muncul pada gelombang tersebut.
+
+---
+
+## Tahap 2: Data Storing (RDBMS)
+Tahap ini memuat data JSON ke dalam sistem basis data relasional MariaDB.
+
+**1. Persiapan Skema (DDL):**  
+Buka terminal MariaDB dan eksekusi *file* skema untuk membuat *database* `btd6_db` beserta tabel-tabelnya:
+
+    source C:/path/to/repo/Data Storing/src/schema.sql;
+
+**2. Proses Load Data (ETL):**  
+Pastikan *library* konektor Python ke MySQL/MariaDB sudah terinstal:
+
+    pip install mysql-connector-python
+
+Lalu, jalankan skrip *Data Loader* melalui PowerShell/terminal untuk mengekstrak JSON dan melakukan `INSERT` ke MariaDB:
+
+    python "Data Storing/src/import_data.py"
+
+**3. Ekspor / Data Dump:**  
+Hasil akhir *database* lengkap telah diekspor dan dapat direstorasi melalui *file* SQL berikut:
+    `Data Storing/export/btd6_database.sql`
+
+---
+
+## Struktur ERD dan Diagram Relasional
+
+### 1. ERD
+![ERD](Data%20Storing/screenshots/ERD.png)
+
+### 2. Relational Model
+![Relational Model](Data%20Storing/screenshots/Relational%20Model.png)
+
+**Translasi ERD menjadi Relational Model**
+Relasi *Many-to-Many* (M:N) ditranslasikan menjadi tabel bernama `spawn`. Yang secara teori, umumnya menggunakan *Composite Primary Key* (`round_id` + `bloon_id`). Namun, sistem BTD6 memiliki mekanisme **Repeating Waves**, di mana tipe Bloon yang sama dapat muncul beberapa kali secara terpisah pada ronde yang sama. Jika *Composite Key* digunakan, DBMS akan menolak penyimpanan gelombang kedua. Sebagai solusi, atribut `spawn_id` ditambahkan sebagai **Surrogate Key**.
+
+---
+
+## Screenshots Eksekusi Program
+
+### 1. Eksekusi Scraper
+![Data Scraping](Data%20Scraping/screenshots/scraper_terminal.png)
+
+### 2. Eksekusi ETL
+![Bukti CRETAE TABLE](Data%20Storing/screenshots/bukti_create.png)
+![Bukti ETL](Data%20Storing/screenshots/bukti_etl.png)
+
+### 3. Contoh Query
+* Menampilkan waves bloon pada ronde 4
+![Image 1](Data%20Storing/screenshots/image1.png)
+* Menampilkan ronde mana saja yang memunculkan bloon tipe MOAB
+![Image 2a](Data%20Storing/screenshots/image2a.png)
+![Image 2a](Data%20Storing/screenshots/image2b.png)
+* Menampilkan 5 ronde yang memiliki kuantitas terbanyak
+![Image 3](Data%20Storing/screenshots/image3.png)
+* Menampilkan 5 ronde yang menghasilkan pendapatan terbanyak
+![Image 4](Data%20Storing/screenshots/image4.png)
+
+---
+
+## Referensi
+* **Target Data:** [BTD6 Wiki - List of rounds in BTD6](https://www.bloonswiki.com/List_of_rounds_in_BTD6)
+* **Python Stack:** Requests, BeautifulSoup4, JSON, mysql-connector-python.
+* **DBMS Engine:** MariaDB (InnoDB).
+* **Teori Basis Data:** A. Silberschatz, H.F. Korth, S. Sudarshan, ‘Database System Concepts’, McGraw Hill. (Referensi Materi Kuliah)
