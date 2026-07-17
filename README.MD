@@ -114,6 +114,23 @@ Relasi *Many-to-Many* (M:N) ditranslasikan menjadi tabel bernama `spawn`. Yang s
 
 ---
 
+## Deklarasi Penggunaan AI
+
+**1. Bagian-bagian yang dibantu oleh AI:**
+* **Debugging:** Menyelesaikan kendala teknis *environment* lokal.
+* **Perekomendasian:** Memberi referensi/rekomendasi web page yang cocok untuk dijadikan bahan scraping (bukan memberikan link, melainkan ciri-cirinya saja).
+* **Pemformatan Dokumentasi:** Membantu merapikan layout pada dokumen README ini.
+
+**2. Bagian-bagian yang tetap dikerjakan sendiri:**
+* **Perancangan Arsitektur:** Pemilihan topik, desain ERD dan Relational Model.
+* **Pengembangan Skrip:** Analisis elemen HTML pada BTD6 wiki dan ekstraksi menggunakan library `BeautifulSoup`.
+* **Eksekusi Keseluruhan:** Eksekusi program di terminal lokal, serta pengujian *query* SQL untuk membuktikan relasi berjalan dengan benar.
+
+**3. Refleksi dari Penggunaan AI:**
+Penggunaan AI dalam tugas seleksi ini sangat meningkatkan efisiensi, terutama dalam debugging masalah teknis yang mungkin membutuhkan waktu berjam-jam untuk mencari tahu kesalahan pengaturan laptop. Namun, saya tidak secara mentah memberikan seluruh data ke AI untuk dikerjakan seluruhnya, melainkan untuk bagian analisis, perancangan, dan eksekusi tetap dikerjakan oleh saya sendiri. In the end, saya harus memiliki pemahaman mengenai materi ini terlebih dahulu agar output yang AI hasilkan dapat divalidasi, dikoreksi, dan diintegrasikan dengan benar.
+
+---
+
 ## Referensi
 * **Target Data:** [BTD6 Wiki - List of rounds in BTD6](https://www.bloonswiki.com/List_of_rounds_in_BTD6)
 * **Python Stack:** Requests, BeautifulSoup4, JSON, mysql-connector-python.
