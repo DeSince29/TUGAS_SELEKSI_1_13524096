@@ -1,0 +1,2990 @@
+[
+  {
+    "spawn_id": 1,
+    "round_id": 1,
+    "bloon_id": 1,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 2,
+    "round_id": 2,
+    "bloon_id": 1,
+    "quantity": 35
+  },
+  {
+    "spawn_id": 3,
+    "round_id": 3,
+    "bloon_id": 1,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 4,
+    "round_id": 3,
+    "bloon_id": 2,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 5,
+    "round_id": 3,
+    "bloon_id": 1,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 6,
+    "round_id": 4,
+    "bloon_id": 1,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 7,
+    "round_id": 4,
+    "bloon_id": 2,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 8,
+    "round_id": 4,
+    "bloon_id": 1,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 9,
+    "round_id": 5,
+    "bloon_id": 2,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 10,
+    "round_id": 5,
+    "bloon_id": 1,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 11,
+    "round_id": 5,
+    "bloon_id": 2,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 12,
+    "round_id": 6,
+    "bloon_id": 3,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 13,
+    "round_id": 6,
+    "bloon_id": 1,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 14,
+    "round_id": 6,
+    "bloon_id": 2,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 15,
+    "round_id": 7,
+    "bloon_id": 2,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 16,
+    "round_id": 7,
+    "bloon_id": 3,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 17,
+    "round_id": 7,
+    "bloon_id": 1,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 18,
+    "round_id": 7,
+    "bloon_id": 2,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 19,
+    "round_id": 8,
+    "bloon_id": 2,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 20,
+    "round_id": 8,
+    "bloon_id": 3,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 21,
+    "round_id": 8,
+    "bloon_id": 1,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 22,
+    "round_id": 8,
+    "bloon_id": 3,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 23,
+    "round_id": 9,
+    "bloon_id": 3,
+    "quantity": 30
+  },
+  {
+    "spawn_id": 24,
+    "round_id": 10,
+    "bloon_id": 2,
+    "quantity": 60
+  },
+  {
+    "spawn_id": 25,
+    "round_id": 10,
+    "bloon_id": 2,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 26,
+    "round_id": 10,
+    "bloon_id": 2,
+    "quantity": 22
+  },
+  {
+    "spawn_id": 27,
+    "round_id": 11,
+    "bloon_id": 4,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 28,
+    "round_id": 11,
+    "bloon_id": 3,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 29,
+    "round_id": 11,
+    "bloon_id": 2,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 30,
+    "round_id": 11,
+    "bloon_id": 1,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 31,
+    "round_id": 12,
+    "bloon_id": 3,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 32,
+    "round_id": 12,
+    "bloon_id": 2,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 33,
+    "round_id": 12,
+    "bloon_id": 4,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 34,
+    "round_id": 13,
+    "bloon_id": 2,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 35,
+    "round_id": 13,
+    "bloon_id": 3,
+    "quantity": 23
+  },
+  {
+    "spawn_id": 36,
+    "round_id": 14,
+    "bloon_id": 1,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 37,
+    "round_id": 14,
+    "bloon_id": 2,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 38,
+    "round_id": 14,
+    "bloon_id": 3,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 39,
+    "round_id": 14,
+    "bloon_id": 4,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 40,
+    "round_id": 14,
+    "bloon_id": 1,
+    "quantity": 31
+  },
+  {
+    "spawn_id": 41,
+    "round_id": 14,
+    "bloon_id": 2,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 42,
+    "round_id": 14,
+    "bloon_id": 3,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 43,
+    "round_id": 14,
+    "bloon_id": 4,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 44,
+    "round_id": 15,
+    "bloon_id": 1,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 45,
+    "round_id": 15,
+    "bloon_id": 2,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 46,
+    "round_id": 15,
+    "bloon_id": 3,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 47,
+    "round_id": 15,
+    "bloon_id": 4,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 48,
+    "round_id": 15,
+    "bloon_id": 5,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 49,
+    "round_id": 16,
+    "bloon_id": 3,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 50,
+    "round_id": 16,
+    "bloon_id": 3,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 51,
+    "round_id": 16,
+    "bloon_id": 4,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 52,
+    "round_id": 17,
+    "bloon_id": 6,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 53,
+    "round_id": 18,
+    "bloon_id": 3,
+    "quantity": 60
+  },
+  {
+    "spawn_id": 54,
+    "round_id": 18,
+    "bloon_id": 3,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 55,
+    "round_id": 19,
+    "bloon_id": 3,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 56,
+    "round_id": 19,
+    "bloon_id": 6,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 57,
+    "round_id": 19,
+    "bloon_id": 5,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 58,
+    "round_id": 19,
+    "bloon_id": 4,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 59,
+    "round_id": 20,
+    "bloon_id": 7,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 60,
+    "round_id": 21,
+    "bloon_id": 4,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 61,
+    "round_id": 21,
+    "bloon_id": 5,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 62,
+    "round_id": 21,
+    "bloon_id": 5,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 63,
+    "round_id": 22,
+    "bloon_id": 8,
+    "quantity": 16
+  },
+  {
+    "spawn_id": 64,
+    "round_id": 23,
+    "bloon_id": 7,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 65,
+    "round_id": 23,
+    "bloon_id": 8,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 66,
+    "round_id": 24,
+    "bloon_id": 9,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 67,
+    "round_id": 24,
+    "bloon_id": 2,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 68,
+    "round_id": 25,
+    "bloon_id": 6,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 69,
+    "round_id": 25,
+    "bloon_id": 10,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 70,
+    "round_id": 26,
+    "bloon_id": 5,
+    "quantity": 23
+  },
+  {
+    "spawn_id": 71,
+    "round_id": 26,
+    "bloon_id": 11,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 72,
+    "round_id": 27,
+    "bloon_id": 1,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 73,
+    "round_id": 27,
+    "bloon_id": 2,
+    "quantity": 60
+  },
+  {
+    "spawn_id": 74,
+    "round_id": 27,
+    "bloon_id": 3,
+    "quantity": 45
+  },
+  {
+    "spawn_id": 75,
+    "round_id": 27,
+    "bloon_id": 4,
+    "quantity": 45
+  },
+  {
+    "spawn_id": 76,
+    "round_id": 28,
+    "bloon_id": 12,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 77,
+    "round_id": 29,
+    "bloon_id": 4,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 78,
+    "round_id": 29,
+    "bloon_id": 6,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 79,
+    "round_id": 30,
+    "bloon_id": 12,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 80,
+    "round_id": 31,
+    "bloon_id": 7,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 81,
+    "round_id": 31,
+    "bloon_id": 8,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 82,
+    "round_id": 31,
+    "bloon_id": 11,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 83,
+    "round_id": 31,
+    "bloon_id": 13,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 84,
+    "round_id": 32,
+    "bloon_id": 7,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 85,
+    "round_id": 32,
+    "bloon_id": 8,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 86,
+    "round_id": 32,
+    "bloon_id": 10,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 87,
+    "round_id": 33,
+    "bloon_id": 14,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 88,
+    "round_id": 33,
+    "bloon_id": 15,
+    "quantity": 13
+  },
+  {
+    "spawn_id": 89,
+    "round_id": 34,
+    "bloon_id": 4,
+    "quantity": 160
+  },
+  {
+    "spawn_id": 90,
+    "round_id": 34,
+    "bloon_id": 11,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 91,
+    "round_id": 35,
+    "bloon_id": 8,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 92,
+    "round_id": 35,
+    "bloon_id": 16,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 93,
+    "round_id": 35,
+    "bloon_id": 5,
+    "quantity": 35
+  },
+  {
+    "spawn_id": 94,
+    "round_id": 35,
+    "bloon_id": 7,
+    "quantity": 30
+  },
+  {
+    "spawn_id": 95,
+    "round_id": 36,
+    "bloon_id": 5,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 96,
+    "round_id": 36,
+    "bloon_id": 17,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 97,
+    "round_id": 36,
+    "bloon_id": 5,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 98,
+    "round_id": 36,
+    "bloon_id": 17,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 99,
+    "round_id": 36,
+    "bloon_id": 5,
+    "quantity": 60
+  },
+  {
+    "spawn_id": 100,
+    "round_id": 37,
+    "bloon_id": 7,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 101,
+    "round_id": 37,
+    "bloon_id": 8,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 102,
+    "round_id": 37,
+    "bloon_id": 12,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 103,
+    "round_id": 37,
+    "bloon_id": 11,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 104,
+    "round_id": 37,
+    "bloon_id": 18,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 105,
+    "round_id": 38,
+    "bloon_id": 8,
+    "quantity": 17
+  },
+  {
+    "spawn_id": 106,
+    "round_id": 38,
+    "bloon_id": 5,
+    "quantity": 42
+  },
+  {
+    "spawn_id": 107,
+    "round_id": 38,
+    "bloon_id": 12,
+    "quantity": 14
+  },
+  {
+    "spawn_id": 108,
+    "round_id": 38,
+    "bloon_id": 11,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 109,
+    "round_id": 38,
+    "bloon_id": 19,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 110,
+    "round_id": 39,
+    "bloon_id": 7,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 111,
+    "round_id": 39,
+    "bloon_id": 8,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 112,
+    "round_id": 39,
+    "bloon_id": 11,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 113,
+    "round_id": 39,
+    "bloon_id": 16,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 114,
+    "round_id": 39,
+    "bloon_id": 20,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 115,
+    "round_id": 40,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 116,
+    "round_id": 41,
+    "bloon_id": 7,
+    "quantity": 60
+  },
+  {
+    "spawn_id": 117,
+    "round_id": 41,
+    "bloon_id": 11,
+    "quantity": 60
+  },
+  {
+    "spawn_id": 118,
+    "round_id": 42,
+    "bloon_id": 20,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 119,
+    "round_id": 42,
+    "bloon_id": 22,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 120,
+    "round_id": 43,
+    "bloon_id": 16,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 121,
+    "round_id": 43,
+    "bloon_id": 19,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 122,
+    "round_id": 44,
+    "bloon_id": 11,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 123,
+    "round_id": 44,
+    "bloon_id": 11,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 124,
+    "round_id": 44,
+    "bloon_id": 11,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 125,
+    "round_id": 44,
+    "bloon_id": 11,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 126,
+    "round_id": 44,
+    "bloon_id": 11,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 127,
+    "round_id": 45,
+    "bloon_id": 16,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 128,
+    "round_id": 45,
+    "bloon_id": 23,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 129,
+    "round_id": 45,
+    "bloon_id": 5,
+    "quantity": 180
+  },
+  {
+    "spawn_id": 130,
+    "round_id": 45,
+    "bloon_id": 24,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 131,
+    "round_id": 46,
+    "bloon_id": 25,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 132,
+    "round_id": 47,
+    "bloon_id": 19,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 133,
+    "round_id": 47,
+    "bloon_id": 26,
+    "quantity": 70
+  },
+  {
+    "spawn_id": 134,
+    "round_id": 48,
+    "bloon_id": 27,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 135,
+    "round_id": 48,
+    "bloon_id": 28,
+    "quantity": 30
+  },
+  {
+    "spawn_id": 136,
+    "round_id": 48,
+    "bloon_id": 16,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 137,
+    "round_id": 48,
+    "bloon_id": 25,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 138,
+    "round_id": 49,
+    "bloon_id": 3,
+    "quantity": 343
+  },
+  {
+    "spawn_id": 139,
+    "round_id": 49,
+    "bloon_id": 16,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 140,
+    "round_id": 49,
+    "bloon_id": 19,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 141,
+    "round_id": 49,
+    "bloon_id": 11,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 142,
+    "round_id": 49,
+    "bloon_id": 16,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 143,
+    "round_id": 49,
+    "bloon_id": 20,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 144,
+    "round_id": 50,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 145,
+    "round_id": 50,
+    "bloon_id": 24,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 146,
+    "round_id": 50,
+    "bloon_id": 1,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 147,
+    "round_id": 50,
+    "bloon_id": 19,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 148,
+    "round_id": 50,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 149,
+    "round_id": 51,
+    "bloon_id": 29,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 150,
+    "round_id": 51,
+    "bloon_id": 20,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 151,
+    "round_id": 52,
+    "bloon_id": 16,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 152,
+    "round_id": 52,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 153,
+    "round_id": 52,
+    "bloon_id": 19,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 154,
+    "round_id": 52,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 155,
+    "round_id": 52,
+    "bloon_id": 19,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 156,
+    "round_id": 53,
+    "bloon_id": 26,
+    "quantity": 80
+  },
+  {
+    "spawn_id": 157,
+    "round_id": 53,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 158,
+    "round_id": 53,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 159,
+    "round_id": 53,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 160,
+    "round_id": 54,
+    "bloon_id": 19,
+    "quantity": 35
+  },
+  {
+    "spawn_id": 161,
+    "round_id": 54,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 162,
+    "round_id": 54,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 163,
+    "round_id": 55,
+    "bloon_id": 19,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 164,
+    "round_id": 55,
+    "bloon_id": 19,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 165,
+    "round_id": 55,
+    "bloon_id": 19,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 166,
+    "round_id": 55,
+    "bloon_id": 19,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 167,
+    "round_id": 55,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 168,
+    "round_id": 56,
+    "bloon_id": 22,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 169,
+    "round_id": 56,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 170,
+    "round_id": 57,
+    "bloon_id": 21,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 171,
+    "round_id": 57,
+    "bloon_id": 16,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 172,
+    "round_id": 57,
+    "bloon_id": 21,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 173,
+    "round_id": 58,
+    "bloon_id": 21,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 174,
+    "round_id": 58,
+    "bloon_id": 19,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 175,
+    "round_id": 58,
+    "bloon_id": 25,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 176,
+    "round_id": 59,
+    "bloon_id": 19,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 177,
+    "round_id": 59,
+    "bloon_id": 30,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 178,
+    "round_id": 59,
+    "bloon_id": 31,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 179,
+    "round_id": 60,
+    "bloon_id": 32,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 180,
+    "round_id": 61,
+    "bloon_id": 13,
+    "quantity": 150
+  },
+  {
+    "spawn_id": 181,
+    "round_id": 61,
+    "bloon_id": 21,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 182,
+    "round_id": 62,
+    "bloon_id": 10,
+    "quantity": 250
+  },
+  {
+    "spawn_id": 183,
+    "round_id": 62,
+    "bloon_id": 21,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 184,
+    "round_id": 62,
+    "bloon_id": 33,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 185,
+    "round_id": 62,
+    "bloon_id": 34,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 186,
+    "round_id": 63,
+    "bloon_id": 12,
+    "quantity": 75
+  },
+  {
+    "spawn_id": 187,
+    "round_id": 63,
+    "bloon_id": 19,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 188,
+    "round_id": 63,
+    "bloon_id": 19,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 189,
+    "round_id": 63,
+    "bloon_id": 19,
+    "quantity": 42
+  },
+  {
+    "spawn_id": 190,
+    "round_id": 64,
+    "bloon_id": 21,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 191,
+    "round_id": 64,
+    "bloon_id": 33,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 192,
+    "round_id": 65,
+    "bloon_id": 11,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 193,
+    "round_id": 65,
+    "bloon_id": 16,
+    "quantity": 70
+  },
+  {
+    "spawn_id": 194,
+    "round_id": 65,
+    "bloon_id": 19,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 195,
+    "round_id": 65,
+    "bloon_id": 21,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 196,
+    "round_id": 65,
+    "bloon_id": 32,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 197,
+    "round_id": 66,
+    "bloon_id": 21,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 198,
+    "round_id": 66,
+    "bloon_id": 21,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 199,
+    "round_id": 66,
+    "bloon_id": 21,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 200,
+    "round_id": 66,
+    "bloon_id": 33,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 201,
+    "round_id": 67,
+    "bloon_id": 21,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 202,
+    "round_id": 67,
+    "bloon_id": 35,
+    "quantity": 13
+  },
+  {
+    "spawn_id": 203,
+    "round_id": 67,
+    "bloon_id": 21,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 204,
+    "round_id": 68,
+    "bloon_id": 21,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 205,
+    "round_id": 68,
+    "bloon_id": 32,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 206,
+    "round_id": 69,
+    "bloon_id": 24,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 207,
+    "round_id": 69,
+    "bloon_id": 36,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 208,
+    "round_id": 69,
+    "bloon_id": 19,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 209,
+    "round_id": 70,
+    "bloon_id": 16,
+    "quantity": 200
+  },
+  {
+    "spawn_id": 210,
+    "round_id": 70,
+    "bloon_id": 37,
+    "quantity": 120
+  },
+  {
+    "spawn_id": 211,
+    "round_id": 70,
+    "bloon_id": 21,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 212,
+    "round_id": 71,
+    "bloon_id": 19,
+    "quantity": 30
+  },
+  {
+    "spawn_id": 213,
+    "round_id": 71,
+    "bloon_id": 21,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 214,
+    "round_id": 72,
+    "bloon_id": 31,
+    "quantity": 38
+  },
+  {
+    "spawn_id": 215,
+    "round_id": 72,
+    "bloon_id": 32,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 216,
+    "round_id": 72,
+    "bloon_id": 32,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 217,
+    "round_id": 73,
+    "bloon_id": 21,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 218,
+    "round_id": 73,
+    "bloon_id": 32,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 219,
+    "round_id": 73,
+    "bloon_id": 21,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 220,
+    "round_id": 74,
+    "bloon_id": 19,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 221,
+    "round_id": 74,
+    "bloon_id": 35,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 222,
+    "round_id": 74,
+    "bloon_id": 32,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 223,
+    "round_id": 74,
+    "bloon_id": 25,
+    "quantity": 60
+  },
+  {
+    "spawn_id": 224,
+    "round_id": 75,
+    "bloon_id": 32,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 225,
+    "round_id": 75,
+    "bloon_id": 12,
+    "quantity": 14
+  },
+  {
+    "spawn_id": 226,
+    "round_id": 75,
+    "bloon_id": 33,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 227,
+    "round_id": 75,
+    "bloon_id": 32,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 228,
+    "round_id": 75,
+    "bloon_id": 24,
+    "quantity": 14
+  },
+  {
+    "spawn_id": 229,
+    "round_id": 75,
+    "bloon_id": 33,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 230,
+    "round_id": 75,
+    "bloon_id": 32,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 231,
+    "round_id": 76,
+    "bloon_id": 31,
+    "quantity": 60
+  },
+  {
+    "spawn_id": 232,
+    "round_id": 77,
+    "bloon_id": 21,
+    "quantity": 11
+  },
+  {
+    "spawn_id": 233,
+    "round_id": 77,
+    "bloon_id": 32,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 234,
+    "round_id": 78,
+    "bloon_id": 16,
+    "quantity": 150
+  },
+  {
+    "spawn_id": 235,
+    "round_id": 78,
+    "bloon_id": 19,
+    "quantity": 75
+  },
+  {
+    "spawn_id": 236,
+    "round_id": 78,
+    "bloon_id": 32,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 237,
+    "round_id": 78,
+    "bloon_id": 10,
+    "quantity": 80
+  },
+  {
+    "spawn_id": 238,
+    "round_id": 78,
+    "bloon_id": 29,
+    "quantity": 72
+  },
+  {
+    "spawn_id": 239,
+    "round_id": 79,
+    "bloon_id": 20,
+    "quantity": 500
+  },
+  {
+    "spawn_id": 240,
+    "round_id": 79,
+    "bloon_id": 32,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 241,
+    "round_id": 79,
+    "bloon_id": 38,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 242,
+    "round_id": 80,
+    "bloon_id": 39,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 243,
+    "round_id": 81,
+    "bloon_id": 32,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 244,
+    "round_id": 81,
+    "bloon_id": 32,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 245,
+    "round_id": 82,
+    "bloon_id": 32,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 246,
+    "round_id": 82,
+    "bloon_id": 38,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 247,
+    "round_id": 83,
+    "bloon_id": 19,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 248,
+    "round_id": 83,
+    "bloon_id": 31,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 249,
+    "round_id": 83,
+    "bloon_id": 25,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 250,
+    "round_id": 83,
+    "bloon_id": 21,
+    "quantity": 30
+  },
+  {
+    "spawn_id": 251,
+    "round_id": 84,
+    "bloon_id": 21,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 252,
+    "round_id": 84,
+    "bloon_id": 32,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 253,
+    "round_id": 85,
+    "bloon_id": 39,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 254,
+    "round_id": 86,
+    "bloon_id": 38,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 255,
+    "round_id": 87,
+    "bloon_id": 39,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 256,
+    "round_id": 88,
+    "bloon_id": 32,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 257,
+    "round_id": 88,
+    "bloon_id": 21,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 258,
+    "round_id": 88,
+    "bloon_id": 39,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 259,
+    "round_id": 89,
+    "bloon_id": 33,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 260,
+    "round_id": 89,
+    "bloon_id": 38,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 261,
+    "round_id": 90,
+    "bloon_id": 40,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 262,
+    "round_id": 90,
+    "bloon_id": 41,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 263,
+    "round_id": 91,
+    "bloon_id": 25,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 264,
+    "round_id": 91,
+    "bloon_id": 32,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 265,
+    "round_id": 92,
+    "bloon_id": 33,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 266,
+    "round_id": 92,
+    "bloon_id": 39,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 267,
+    "round_id": 93,
+    "bloon_id": 38,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 268,
+    "round_id": 93,
+    "bloon_id": 41,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 269,
+    "round_id": 94,
+    "bloon_id": 32,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 270,
+    "round_id": 94,
+    "bloon_id": 39,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 271,
+    "round_id": 95,
+    "bloon_id": 28,
+    "quantity": 500
+  },
+  {
+    "spawn_id": 272,
+    "round_id": 95,
+    "bloon_id": 40,
+    "quantity": 250
+  },
+  {
+    "spawn_id": 273,
+    "round_id": 95,
+    "bloon_id": 33,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 274,
+    "round_id": 95,
+    "bloon_id": 41,
+    "quantity": 30
+  },
+  {
+    "spawn_id": 275,
+    "round_id": 96,
+    "bloon_id": 32,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 276,
+    "round_id": 96,
+    "bloon_id": 33,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 277,
+    "round_id": 96,
+    "bloon_id": 32,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 278,
+    "round_id": 96,
+    "bloon_id": 33,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 279,
+    "round_id": 96,
+    "bloon_id": 32,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 280,
+    "round_id": 96,
+    "bloon_id": 39,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 281,
+    "round_id": 97,
+    "bloon_id": 42,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 282,
+    "round_id": 98,
+    "bloon_id": 38,
+    "quantity": 30
+  },
+  {
+    "spawn_id": 283,
+    "round_id": 98,
+    "bloon_id": 39,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 284,
+    "round_id": 99,
+    "bloon_id": 21,
+    "quantity": 60
+  },
+  {
+    "spawn_id": 285,
+    "round_id": 99,
+    "bloon_id": 43,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 286,
+    "round_id": 100,
+    "bloon_id": 44,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 287,
+    "round_id": 101,
+    "bloon_id": 10,
+    "quantity": 250
+  },
+  {
+    "spawn_id": 288,
+    "round_id": 101,
+    "bloon_id": 33,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 289,
+    "round_id": 101,
+    "bloon_id": 25,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 290,
+    "round_id": 101,
+    "bloon_id": 10,
+    "quantity": 200
+  },
+  {
+    "spawn_id": 291,
+    "round_id": 102,
+    "bloon_id": 39,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 292,
+    "round_id": 102,
+    "bloon_id": 42,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 293,
+    "round_id": 102,
+    "bloon_id": 41,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 294,
+    "round_id": 102,
+    "bloon_id": 32,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 295,
+    "round_id": 102,
+    "bloon_id": 42,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 296,
+    "round_id": 102,
+    "bloon_id": 43,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 297,
+    "round_id": 102,
+    "bloon_id": 38,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 298,
+    "round_id": 103,
+    "bloon_id": 42,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 299,
+    "round_id": 103,
+    "bloon_id": 21,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 300,
+    "round_id": 103,
+    "bloon_id": 10,
+    "quantity": 64
+  },
+  {
+    "spawn_id": 301,
+    "round_id": 103,
+    "bloon_id": 33,
+    "quantity": 50
+  },
+  {
+    "spawn_id": 302,
+    "round_id": 103,
+    "bloon_id": 10,
+    "quantity": 66
+  },
+  {
+    "spawn_id": 303,
+    "round_id": 103,
+    "bloon_id": 10,
+    "quantity": 68
+  },
+  {
+    "spawn_id": 304,
+    "round_id": 104,
+    "bloon_id": 33,
+    "quantity": 150
+  },
+  {
+    "spawn_id": 305,
+    "round_id": 104,
+    "bloon_id": 32,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 306,
+    "round_id": 104,
+    "bloon_id": 24,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 307,
+    "round_id": 104,
+    "bloon_id": 32,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 308,
+    "round_id": 104,
+    "bloon_id": 10,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 309,
+    "round_id": 104,
+    "bloon_id": 32,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 310,
+    "round_id": 104,
+    "bloon_id": 19,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 311,
+    "round_id": 104,
+    "bloon_id": 38,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 312,
+    "round_id": 104,
+    "bloon_id": 24,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 313,
+    "round_id": 104,
+    "bloon_id": 38,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 314,
+    "round_id": 104,
+    "bloon_id": 10,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 315,
+    "round_id": 104,
+    "bloon_id": 38,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 316,
+    "round_id": 104,
+    "bloon_id": 19,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 317,
+    "round_id": 104,
+    "bloon_id": 21,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 318,
+    "round_id": 105,
+    "bloon_id": 19,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 319,
+    "round_id": 105,
+    "bloon_id": 24,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 320,
+    "round_id": 105,
+    "bloon_id": 32,
+    "quantity": 30
+  },
+  {
+    "spawn_id": 321,
+    "round_id": 105,
+    "bloon_id": 25,
+    "quantity": 300
+  },
+  {
+    "spawn_id": 322,
+    "round_id": 106,
+    "bloon_id": 41,
+    "quantity": 21
+  },
+  {
+    "spawn_id": 323,
+    "round_id": 106,
+    "bloon_id": 41,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 324,
+    "round_id": 106,
+    "bloon_id": 41,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 325,
+    "round_id": 106,
+    "bloon_id": 43,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 326,
+    "round_id": 106,
+    "bloon_id": 43,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 327,
+    "round_id": 106,
+    "bloon_id": 43,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 328,
+    "round_id": 106,
+    "bloon_id": 41,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 329,
+    "round_id": 107,
+    "bloon_id": 25,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 330,
+    "round_id": 107,
+    "bloon_id": 23,
+    "quantity": 444
+  },
+  {
+    "spawn_id": 331,
+    "round_id": 107,
+    "bloon_id": 42,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 332,
+    "round_id": 108,
+    "bloon_id": 39,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 333,
+    "round_id": 108,
+    "bloon_id": 42,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 334,
+    "round_id": 109,
+    "bloon_id": 39,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 335,
+    "round_id": 109,
+    "bloon_id": 10,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 336,
+    "round_id": 109,
+    "bloon_id": 32,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 337,
+    "round_id": 109,
+    "bloon_id": 33,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 338,
+    "round_id": 109,
+    "bloon_id": 38,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 339,
+    "round_id": 109,
+    "bloon_id": 33,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 340,
+    "round_id": 110,
+    "bloon_id": 32,
+    "quantity": 25
+  },
+  {
+    "spawn_id": 341,
+    "round_id": 110,
+    "bloon_id": 41,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 342,
+    "round_id": 110,
+    "bloon_id": 41,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 343,
+    "round_id": 110,
+    "bloon_id": 43,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 344,
+    "round_id": 110,
+    "bloon_id": 43,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 345,
+    "round_id": 111,
+    "bloon_id": 39,
+    "quantity": 17
+  },
+  {
+    "spawn_id": 346,
+    "round_id": 111,
+    "bloon_id": 42,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 347,
+    "round_id": 111,
+    "bloon_id": 39,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 348,
+    "round_id": 112,
+    "bloon_id": 38,
+    "quantity": 27
+  },
+  {
+    "spawn_id": 349,
+    "round_id": 112,
+    "bloon_id": 43,
+    "quantity": 21
+  },
+  {
+    "spawn_id": 350,
+    "round_id": 113,
+    "bloon_id": 33,
+    "quantity": 75
+  },
+  {
+    "spawn_id": 351,
+    "round_id": 113,
+    "bloon_id": 38,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 352,
+    "round_id": 113,
+    "bloon_id": 29,
+    "quantity": 42
+  },
+  {
+    "spawn_id": 353,
+    "round_id": 113,
+    "bloon_id": 25,
+    "quantity": 42
+  },
+  {
+    "spawn_id": 354,
+    "round_id": 114,
+    "bloon_id": 41,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 355,
+    "round_id": 114,
+    "bloon_id": 33,
+    "quantity": 36
+  },
+  {
+    "spawn_id": 356,
+    "round_id": 114,
+    "bloon_id": 43,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 357,
+    "round_id": 114,
+    "bloon_id": 21,
+    "quantity": 24
+  },
+  {
+    "spawn_id": 358,
+    "round_id": 114,
+    "bloon_id": 32,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 359,
+    "round_id": 114,
+    "bloon_id": 38,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 360,
+    "round_id": 114,
+    "bloon_id": 39,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 361,
+    "round_id": 114,
+    "bloon_id": 42,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 362,
+    "round_id": 115,
+    "bloon_id": 41,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 363,
+    "round_id": 115,
+    "bloon_id": 42,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 364,
+    "round_id": 115,
+    "bloon_id": 43,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 365,
+    "round_id": 115,
+    "bloon_id": 38,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 366,
+    "round_id": 115,
+    "bloon_id": 39,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 367,
+    "round_id": 115,
+    "bloon_id": 32,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 368,
+    "round_id": 115,
+    "bloon_id": 21,
+    "quantity": 24
+  },
+  {
+    "spawn_id": 369,
+    "round_id": 115,
+    "bloon_id": 33,
+    "quantity": 36
+  },
+  {
+    "spawn_id": 370,
+    "round_id": 116,
+    "bloon_id": 42,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 371,
+    "round_id": 116,
+    "bloon_id": 38,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 372,
+    "round_id": 116,
+    "bloon_id": 10,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 373,
+    "round_id": 116,
+    "bloon_id": 10,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 374,
+    "round_id": 116,
+    "bloon_id": 10,
+    "quantity": 200
+  },
+  {
+    "spawn_id": 375,
+    "round_id": 117,
+    "bloon_id": 12,
+    "quantity": 250
+  },
+  {
+    "spawn_id": 376,
+    "round_id": 117,
+    "bloon_id": 41,
+    "quantity": 27
+  },
+  {
+    "spawn_id": 377,
+    "round_id": 117,
+    "bloon_id": 43,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 378,
+    "round_id": 118,
+    "bloon_id": 39,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 379,
+    "round_id": 118,
+    "bloon_id": 43,
+    "quantity": 30
+  },
+  {
+    "spawn_id": 380,
+    "round_id": 119,
+    "bloon_id": 44,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 381,
+    "round_id": 119,
+    "bloon_id": 44,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 382,
+    "round_id": 120,
+    "bloon_id": 39,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 383,
+    "round_id": 120,
+    "bloon_id": 32,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 384,
+    "round_id": 120,
+    "bloon_id": 33,
+    "quantity": 24
+  },
+  {
+    "spawn_id": 385,
+    "round_id": 121,
+    "bloon_id": 38,
+    "quantity": 14
+  },
+  {
+    "spawn_id": 386,
+    "round_id": 121,
+    "bloon_id": 33,
+    "quantity": 28
+  },
+  {
+    "spawn_id": 387,
+    "round_id": 121,
+    "bloon_id": 42,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 388,
+    "round_id": 122,
+    "bloon_id": 32,
+    "quantity": 40
+  },
+  {
+    "spawn_id": 389,
+    "round_id": 122,
+    "bloon_id": 38,
+    "quantity": 20
+  },
+  {
+    "spawn_id": 390,
+    "round_id": 122,
+    "bloon_id": 24,
+    "quantity": 75
+  },
+  {
+    "spawn_id": 391,
+    "round_id": 122,
+    "bloon_id": 24,
+    "quantity": 75
+  },
+  {
+    "spawn_id": 392,
+    "round_id": 122,
+    "bloon_id": 24,
+    "quantity": 75
+  },
+  {
+    "spawn_id": 393,
+    "round_id": 123,
+    "bloon_id": 42,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 394,
+    "round_id": 123,
+    "bloon_id": 21,
+    "quantity": 200
+  },
+  {
+    "spawn_id": 395,
+    "round_id": 124,
+    "bloon_id": 38,
+    "quantity": 75
+  },
+  {
+    "spawn_id": 396,
+    "round_id": 125,
+    "bloon_id": 39,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 397,
+    "round_id": 125,
+    "bloon_id": 39,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 398,
+    "round_id": 125,
+    "bloon_id": 32,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 399,
+    "round_id": 125,
+    "bloon_id": 32,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 400,
+    "round_id": 125,
+    "bloon_id": 39,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 401,
+    "round_id": 125,
+    "bloon_id": 32,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 402,
+    "round_id": 125,
+    "bloon_id": 21,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 403,
+    "round_id": 125,
+    "bloon_id": 39,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 404,
+    "round_id": 125,
+    "bloon_id": 32,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 405,
+    "round_id": 125,
+    "bloon_id": 21,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 406,
+    "round_id": 125,
+    "bloon_id": 39,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 407,
+    "round_id": 125,
+    "bloon_id": 32,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 408,
+    "round_id": 125,
+    "bloon_id": 21,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 409,
+    "round_id": 125,
+    "bloon_id": 39,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 410,
+    "round_id": 125,
+    "bloon_id": 32,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 411,
+    "round_id": 125,
+    "bloon_id": 21,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 412,
+    "round_id": 125,
+    "bloon_id": 21,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 413,
+    "round_id": 125,
+    "bloon_id": 21,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 414,
+    "round_id": 126,
+    "bloon_id": 40,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 415,
+    "round_id": 126,
+    "bloon_id": 41,
+    "quantity": 99
+  },
+  {
+    "spawn_id": 416,
+    "round_id": 127,
+    "bloon_id": 21,
+    "quantity": 48
+  },
+  {
+    "spawn_id": 417,
+    "round_id": 127,
+    "bloon_id": 32,
+    "quantity": 24
+  },
+  {
+    "spawn_id": 418,
+    "round_id": 128,
+    "bloon_id": 43,
+    "quantity": 39
+  },
+  {
+    "spawn_id": 419,
+    "round_id": 128,
+    "bloon_id": 45,
+    "quantity": 200
+  },
+  {
+    "spawn_id": 420,
+    "round_id": 128,
+    "bloon_id": 32,
+    "quantity": 30
+  },
+  {
+    "spawn_id": 421,
+    "round_id": 129,
+    "bloon_id": 42,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 422,
+    "round_id": 129,
+    "bloon_id": 46,
+    "quantity": 77
+  },
+  {
+    "spawn_id": 423,
+    "round_id": 129,
+    "bloon_id": 23,
+    "quantity": 77
+  },
+  {
+    "spawn_id": 424,
+    "round_id": 129,
+    "bloon_id": 29,
+    "quantity": 77
+  },
+  {
+    "spawn_id": 425,
+    "round_id": 129,
+    "bloon_id": 39,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 426,
+    "round_id": 129,
+    "bloon_id": 41,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 427,
+    "round_id": 129,
+    "bloon_id": 41,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 428,
+    "round_id": 129,
+    "bloon_id": 41,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 429,
+    "round_id": 129,
+    "bloon_id": 41,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 430,
+    "round_id": 130,
+    "bloon_id": 21,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 431,
+    "round_id": 130,
+    "bloon_id": 41,
+    "quantity": 27
+  },
+  {
+    "spawn_id": 432,
+    "round_id": 130,
+    "bloon_id": 33,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 433,
+    "round_id": 130,
+    "bloon_id": 21,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 434,
+    "round_id": 130,
+    "bloon_id": 33,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 435,
+    "round_id": 130,
+    "bloon_id": 21,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 436,
+    "round_id": 130,
+    "bloon_id": 41,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 437,
+    "round_id": 130,
+    "bloon_id": 21,
+    "quantity": 48
+  },
+  {
+    "spawn_id": 438,
+    "round_id": 130,
+    "bloon_id": 43,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 439,
+    "round_id": 130,
+    "bloon_id": 41,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 440,
+    "round_id": 130,
+    "bloon_id": 43,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 441,
+    "round_id": 130,
+    "bloon_id": 41,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 442,
+    "round_id": 130,
+    "bloon_id": 33,
+    "quantity": 48
+  },
+  {
+    "spawn_id": 443,
+    "round_id": 131,
+    "bloon_id": 42,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 444,
+    "round_id": 132,
+    "bloon_id": 39,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 445,
+    "round_id": 132,
+    "bloon_id": 39,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 446,
+    "round_id": 132,
+    "bloon_id": 42,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 447,
+    "round_id": 132,
+    "bloon_id": 23,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 448,
+    "round_id": 132,
+    "bloon_id": 39,
+    "quantity": 5
+  },
+  {
+    "spawn_id": 449,
+    "round_id": 132,
+    "bloon_id": 39,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 450,
+    "round_id": 132,
+    "bloon_id": 42,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 451,
+    "round_id": 132,
+    "bloon_id": 23,
+    "quantity": 100
+  },
+  {
+    "spawn_id": 452,
+    "round_id": 133,
+    "bloon_id": 33,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 453,
+    "round_id": 133,
+    "bloon_id": 38,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 454,
+    "round_id": 133,
+    "bloon_id": 42,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 455,
+    "round_id": 133,
+    "bloon_id": 33,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 456,
+    "round_id": 133,
+    "bloon_id": 38,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 457,
+    "round_id": 133,
+    "bloon_id": 42,
+    "quantity": 2
+  },
+  {
+    "spawn_id": 458,
+    "round_id": 133,
+    "bloon_id": 21,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 459,
+    "round_id": 133,
+    "bloon_id": 32,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 460,
+    "round_id": 133,
+    "bloon_id": 39,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 461,
+    "round_id": 133,
+    "bloon_id": 21,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 462,
+    "round_id": 133,
+    "bloon_id": 32,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 463,
+    "round_id": 133,
+    "bloon_id": 39,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 464,
+    "round_id": 133,
+    "bloon_id": 21,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 465,
+    "round_id": 133,
+    "bloon_id": 32,
+    "quantity": 9
+  },
+  {
+    "spawn_id": 466,
+    "round_id": 133,
+    "bloon_id": 39,
+    "quantity": 3
+  },
+  {
+    "spawn_id": 467,
+    "round_id": 134,
+    "bloon_id": 38,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 468,
+    "round_id": 134,
+    "bloon_id": 32,
+    "quantity": 10
+  },
+  {
+    "spawn_id": 469,
+    "round_id": 134,
+    "bloon_id": 32,
+    "quantity": 8
+  },
+  {
+    "spawn_id": 470,
+    "round_id": 134,
+    "bloon_id": 32,
+    "quantity": 6
+  },
+  {
+    "spawn_id": 471,
+    "round_id": 134,
+    "bloon_id": 32,
+    "quantity": 4
+  },
+  {
+    "spawn_id": 472,
+    "round_id": 135,
+    "bloon_id": 42,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 473,
+    "round_id": 135,
+    "bloon_id": 42,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 474,
+    "round_id": 135,
+    "bloon_id": 43,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 475,
+    "round_id": 135,
+    "bloon_id": 43,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 476,
+    "round_id": 135,
+    "bloon_id": 43,
+    "quantity": 7
+  },
+  {
+    "spawn_id": 477,
+    "round_id": 136,
+    "bloon_id": 33,
+    "quantity": 96
+  },
+  {
+    "spawn_id": 478,
+    "round_id": 136,
+    "bloon_id": 32,
+    "quantity": 24
+  },
+  {
+    "spawn_id": 479,
+    "round_id": 137,
+    "bloon_id": 39,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 480,
+    "round_id": 137,
+    "bloon_id": 32,
+    "quantity": 24
+  },
+  {
+    "spawn_id": 481,
+    "round_id": 137,
+    "bloon_id": 21,
+    "quantity": 48
+  },
+  {
+    "spawn_id": 482,
+    "round_id": 138,
+    "bloon_id": 43,
+    "quantity": 33
+  },
+  {
+    "spawn_id": 483,
+    "round_id": 138,
+    "bloon_id": 43,
+    "quantity": 27
+  },
+  {
+    "spawn_id": 484,
+    "round_id": 138,
+    "bloon_id": 43,
+    "quantity": 21
+  },
+  {
+    "spawn_id": 485,
+    "round_id": 138,
+    "bloon_id": 41,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 486,
+    "round_id": 138,
+    "bloon_id": 41,
+    "quantity": 15
+  },
+  {
+    "spawn_id": 487,
+    "round_id": 138,
+    "bloon_id": 41,
+    "quantity": 12
+  },
+  {
+    "spawn_id": 488,
+    "round_id": 139,
+    "bloon_id": 21,
+    "quantity": 109
+  },
+  {
+    "spawn_id": 489,
+    "round_id": 139,
+    "bloon_id": 21,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 490,
+    "round_id": 139,
+    "bloon_id": 33,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 491,
+    "round_id": 139,
+    "bloon_id": 21,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 492,
+    "round_id": 139,
+    "bloon_id": 33,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 493,
+    "round_id": 139,
+    "bloon_id": 21,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 494,
+    "round_id": 139,
+    "bloon_id": 33,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 495,
+    "round_id": 139,
+    "bloon_id": 21,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 496,
+    "round_id": 139,
+    "bloon_id": 33,
+    "quantity": 18
+  },
+  {
+    "spawn_id": 497,
+    "round_id": 140,
+    "bloon_id": 47,
+    "quantity": 1
+  },
+  {
+    "spawn_id": 498,
+    "round_id": 140,
+    "bloon_id": 44,
+    "quantity": 1
+  }
+]
