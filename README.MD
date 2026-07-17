@@ -29,7 +29,7 @@ Jalankan skrip *scraper* dari *root* repositori:
 
     python "Data Scraping/src/scraper.py"
 
-## 🗂️ Struktur File JSON
+## Struktur File JSON
 Hasil keluaran dari skrip *scraper* dipisah menjadi 3 *file* JSON untuk pendekatan normalisasi, sehingga mempermudah proses Load ke dalam RDBMS. Ketiga *file* ini di simpan di dalam direktori `Data Scraping/data/`.
 
 **1. `bloons.json`**
@@ -82,10 +82,10 @@ Hasil akhir *database* lengkap telah diekspor dan dapat direstorasi melalui *fil
 ## Struktur ERD dan Diagram Relasional
 
 ### 1. ERD
-![ERD](Data%20Storing/screenshots/ERD.png)
+![ERD](Data%20Storing/design/ERD.png)
 
 ### 2. Relational Model
-![Relational Model](Data%20Storing/screenshots/Relational%20Model.png)
+![Relational Model](Data%20Storing/design/Relational%20Model.png)
 
 **Translasi ERD menjadi Relational Model**
 Relasi *Many-to-Many* (M:N) ditranslasikan menjadi tabel bernama `spawn`. Yang secara teori, umumnya menggunakan *Composite Primary Key* (`round_id` + `bloon_id`). Namun, sistem BTD6 memiliki mekanisme **Repeating Waves**, di mana tipe Bloon yang sama dapat muncul beberapa kali secara terpisah pada ronde yang sama. Jika *Composite Key* digunakan, DBMS akan menolak penyimpanan gelombang kedua. Sebagai solusi, atribut `spawn_id` ditambahkan sebagai **Surrogate Key**.
@@ -95,10 +95,10 @@ Relasi *Many-to-Many* (M:N) ditranslasikan menjadi tabel bernama `spawn`. Yang s
 ## Screenshots Eksekusi Program
 
 ### 1. Eksekusi Scraper
-![Data Scraping](Data%20Scraping/screenshots/scraper_terminal.png)
+![Data Scraping](Data%20Scraping/screenshots/bukti.png)
 
 ### 2. Eksekusi ETL
-![Bukti CRETAE TABLE](Data%20Storing/screenshots/bukti_create.png)
+![Bukti CREATE TABLE](Data%20Storing/screenshots/bukti_create.png)
 ![Bukti ETL](Data%20Storing/screenshots/bukti_etl.png)
 
 ### 3. Contoh Query
