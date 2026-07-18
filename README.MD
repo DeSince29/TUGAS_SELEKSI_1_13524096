@@ -41,7 +41,7 @@ Berisi daftar unik jenis Bloon yang pernah muncul pada ronde 1-140.
 Berisi data statistik spesifik dari setiap ronde permainan.
 * `round_id` (Integer): Nomor urut ronde permainan.
 * `duration` (Decimal): Lama durasi ronde dalam detik.
-* `base_rbe` (Integer): Kepadatan musuh (*Red Bloon Equivalent*).
+* `base_rbe` (Integer): Kepadatan bloon di ronde tersebut (*Red Bloon Equivalent*).
 * `pop_cash` (Decimal): Total uang hasil memecahkan seluruh bloon.
 * `bonus_cash` (Decimal): Uang bonus di akhir ronde.
 * `layers` (Integer): Total lapisan bloon.
@@ -111,6 +111,34 @@ Relasi *Many-to-Many* (M:N) ditranslasikan menjadi tabel bernama `spawn`. Yang s
 ![Image 3](Data%20Storing/screenshots/image3.png)
 * Menampilkan 5 ronde yang menghasilkan pendapatan terbanyak
 ![Image 4](Data%20Storing/screenshots/image4.png)
+
+---
+
+## Tahap 3 (Bonus): Data Warehouse
+
+**1. Arsitektur Pemodelan (Star Schema):**
+Skema relasional diubah menjadi bentuk *Star Schema*:
+* **`fact_spawn`**: Tabel fakta yang mencatat kejadian (*event*) munculnya gelombang bloon (menyimpan `quantity`).
+* **`dim_round`**: Tabel dimensi yang menyimpan atribut statis ronde permainan (termasuk *pre-computed column* `total_cash` untuk meringankan beban agregasi analitik).
+* **`dim_bloon`**: Tabel dimensi yang berisi katalog jenis bloon.
+
+**Keputusan Desain:**
+Pada Data Warehouse ini, identitas asli dari sistem operasional (`round_id` dan `bloon_id`) tetap dipertahankan di dalam tabel dimensi sebagai *Natural Key* (Business Key) untuk menjaga agar data tetap bisa dicari. Namun, *Primary Key* utama untuk mengikat relasi antar tabel menggunakan **Surrogate Key** buatan (`round_key`, `bloon_key`, `spawn_key` dengan tipe `AUTO_INCREMENT`). 
+Pendekatan ini diterapkan untuk mengantisipasi *Slowly Changing Dimensions* (SCD) serta memastikan stabilitas sistem analitik dari potensi anomali perubahan ID pada sistem sumber.
+
+**2. Proses Migrasi:**
+Pemindahan data dari `btd6_db` (OLTP) ke `btd6_dwh` (OLAP) dilakukan secara *bulk* menggunakan SQL murni (`INSERT INTO ... SELECT`). Skrip ini memanfaatkan relasi `JOIN` untuk mencocokkan *Natural Key* dan menghasilkan relasi *Surrogate Key* yang valid pada *Fact Table*.
+![Bukti CREATE TABLE](Data%20Warehouse/screenshots/bukti_create.png)
+![Bukti ETL](Data%20Warehouse/screenshots/bukti_etl.png)
+
+**3. Data Analytics:**
+Data Warehouse ini telah diuji keandalannya menggunakan *query* analitik kompleks untuk mendemonstrasikan efisiensi agregasi *Star Schema*, antara lain:
+* Menampilkan jenis bloon yang paling banyak muncul.
+![Image 1](Data%20Warehouse/screenshots/image1.png)
+* Analisis rasio "Harga per Kemunculan Bloon" di 5 ronde tersibuk.
+![Image 2](Data%20Warehouse/screenshots/image2.png)
+* Melacak ronde dengan kemunculan MOAB terbanyak.
+![Image 3](Data%20Warehouse/screenshots/image3.png)
 
 ---
 
