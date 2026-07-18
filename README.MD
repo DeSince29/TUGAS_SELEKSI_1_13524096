@@ -106,7 +106,7 @@ Relasi *Many-to-Many* (M:N) ditranslasikan menjadi tabel bernama `spawn`. Yang s
 ![Image 1](Data%20Storing/screenshots/image1.png)
 * Menampilkan ronde mana saja yang memunculkan bloon tipe MOAB
 ![Image 2a](Data%20Storing/screenshots/image2a.png)
-![Image 2a](Data%20Storing/screenshots/image2b.png)
+![Image 2b](Data%20Storing/screenshots/image2b.png)
 * Menampilkan 5 ronde yang memiliki kuantitas terbanyak
 ![Image 3](Data%20Storing/screenshots/image3.png)
 * Menampilkan 5 ronde yang menghasilkan pendapatan terbanyak
@@ -139,6 +139,30 @@ Data Warehouse ini telah diuji keandalannya menggunakan *query* analitik komplek
 ![Image 2](Data%20Warehouse/screenshots/image2.png)
 * Melacak ronde dengan kemunculan MOAB terbanyak.
 ![Image 3](Data%20Warehouse/screenshots/image3.png)
+
+---
+
+## Tahap 4 (Bonus): Query Optimization
+
+**1. Penambahan B-Tree Indexing pada Pencarian Teks**
+*   **Masalah:** Pencarian data bloon spesifik berdasarkan teks (`WHERE bloon_name = 'DDT'`) umumnya akan memaksa sistem melakukan *Full Table Scan*.
+*   **Solusi:** Menambahkan struktur *index* (`idx_bloon_name`) pada kolom `bloon_name` di tabel `bloon`.
+*   **Bukti Optimasi:** Melalui verifikasi command `EXPLAIN`, metrik eksekusi berubah dari tipe `ALL` (memindai seluruh baris tabel) menjadi `ref` (pemindaian berbasis indeks), yang memastikan skalabilitas pencarian tetap optimal seiring bertambahnya volume data.
+![Image 1](Data%20Storing/screenshots/optimization/image1.png)
+
+**2. Meratakan Subquery (`IN`) menjadi `JOIN`**
+*   **Masalah:** Pencarian ronde yang memunculkan 'ZOMG' menggunakan *Subquery* bersarang (`IN`) cenderung tidak efisien karena *inner query* sering dievaluasi berulang kali.
+*   **Solusi:** Mentransformasi *Subquery* tersebut menjadi struktur *Inner Join* (`JOIN bloon b ON s.bloon_id = b.bloon_id`).
+*   **Bukti Optimasi:** Waktu eksekusi lebih singkat dengan *output* tabel yang dihasilkan tetap sama.
+![Image 2a](Data%20Storing/screenshots/optimization/image2a.png)
+![Image 2b](Data%20Storing/screenshots/optimization/image2b.png)
+
+**3. Filter Pra-Agregasi (`WHERE` vs `HAVING`)**
+*   **Masalah:** Menghitung total kemunculan gelombang musuh untuk ronde di atas 100 menggunakan `HAVING round_id > 100` menyebabkan sistem menghitung agregasi untuk seluruh ronde (1-140) ke dalam memori terlebih dahulu sebelum membuang ronde 1-100.
+*   **Solusi:** Memindahkan logika filter ke `WHERE round_id > 100` sebelum proses `GROUP BY` dieksekusi.
+*   **Bukti Optimasi:** Memotong beban komputasi CPU dan memori sejak awal karena agregasi hanya dilakukan pada baris data yang memang relevan. Keluaran *query* terbukti sama dengan versi *unoptimized*.
+![Image 3a](Data%20Storing/screenshots/optimization/image3a.png)
+![Image 3b](Data%20Storing/screenshots/optimization/image3b.png)
 
 ---
 
