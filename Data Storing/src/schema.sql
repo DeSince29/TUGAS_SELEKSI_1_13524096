@@ -35,6 +35,7 @@ CREATE TABLE IF NOT EXISTS spawn (
     round_id INT NOT NULL,
     bloon_id INT NOT NULL,
     quantity INT NOT NULL,
+    extracted_at DATETIME DEFAULT CURRENT_TIMESTAMP,
 
     -- FK ke round
     CONSTRAINT fk_spawn_round

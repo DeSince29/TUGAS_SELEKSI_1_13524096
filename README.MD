@@ -142,7 +142,17 @@ Data Warehouse ini telah diuji keandalannya menggunakan *query* analitik komplek
 
 ---
 
-## Tahap 4 (Bonus): Query Optimization
+## Tahap 4 (Bonus): Automated Scheduling
+Sistem ekstraksi dan pemrosesan data (ETL) ini telah dilengkapi dengan fitur penjadwalan otomatis secara lokal. Proses ini menggunakan **Windows Task Scheduler** yang memanggil *batch file* (`run_etl.bat`) secara berkala (setiap hari), menjalankan alur dari eksekusi Python untuk *Data Scraping* dan *Data Storing*, hingga pemanggilan MariaDB untuk migrasi ke *Data Warehouse*.
+
+**Bukti Eksekusi Batch dan Timestamp:**
+Telah dicantumkan data waktu pelaksanaan penjadwalan pada struktur basis data menggunakan penambahan kolom `extracted_at` (`DATETIME`). Di dalam folder `screenshots/`, terdapat bukti tangkapan layar yang menunjukkan perbedaan *timestamp* ekstraksi antara data pada *batch* pertama dan data pada *batch* kedua. Tangkapan layar tersebut menunjukkan bahwa data baru (disimulasikan dengan *ID dummy* 9999 sementara saat penjadwal berjalan) memiliki *timestamp* yang lebih baru, sementara kumpulan data *batch* pertama di bawahnya tetap utuh tanpa mengalami redundansi.
+![Image 1](Data%20Storing/screenshots/scheduling/image1.png)
+![Image 2](Data%20Storing/screenshots/scheduling/image2.png)
+
+---
+
+## Tahap 5 (Bonus): Query Optimization
 
 **1. Penambahan B-Tree Indexing pada Pencarian Teks**
 *   **Masalah:** Pencarian data bloon spesifik berdasarkan teks (`WHERE bloon_name = 'DDT'`) umumnya akan memaksa sistem melakukan *Full Table Scan*.

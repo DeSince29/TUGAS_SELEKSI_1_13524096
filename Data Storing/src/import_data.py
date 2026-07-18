@@ -47,20 +47,20 @@ def main():
         # Insert dulu tabel utama
         print(f"Insert bloon ({len(bloon_values)} data)...")
         cursor.executemany(
-            "INSERT INTO bloon (bloon_id, bloon_name) VALUES (%s, %s)",
+            "INSERT IGNORE INTO bloon (bloon_id, bloon_name) VALUES (%s, %s)",
             bloon_values
         )
 
         print(f"Insert round ({len(round_values)} data)...")
         cursor.executemany(
-            "INSERT INTO round (round_id, duration, base_rbe, pop_cash, bonus_cash, layers, base_xp) VALUES (%s, %s, %s, %s, %s, %s, %s)",
+            "INSERT IGNORE INTO round (round_id, duration, base_rbe, pop_cash, bonus_cash, layers, base_xp) VALUES (%s, %s, %s, %s, %s, %s, %s)",
             round_values
         )
 
         # Terakhir tabel spawn (karena ada FK)
         print(f"Insert spawn ({len(spawn_values)} data)...")
         cursor.executemany(
-            "INSERT INTO spawn (spawn_id, round_id, bloon_id, quantity) VALUES (%s, %s, %s, %s)",
+            "INSERT IGNORE INTO spawn (spawn_id, round_id, bloon_id, quantity) VALUES (%s, %s, %s, %s)",
             spawn_values
         )
 
